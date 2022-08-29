@@ -21,19 +21,19 @@ while(i < 5):
             #incrementing the score of the player after answering correctly
             score += 1
     elif i == 1:
-        answer = input("What programming paradigm does  Python follow? (static / dynamic)")
+        answer = input("What programming paradigm does  Python follow? (static / dynamic) \n")
         if answer.lower() == AnswerKey[1].lower():
             score += 1
     elif i == 2:
-        answer = input("What is the key word to use external modules in python?")
+        answer = input("What is the key word to use external modules in python? \n")
         if answer.lower() == AnswerKey[2].lower():
             score += 1
     elif i == 3:
-        answer = input("What is the name of the Python module to work with file system?")
+        answer = input("What is the name of the Python module to work with file system? \n")
         if answer.lower() == AnswerKey[3].lower():
             score += 1
     elif i == 4:
-        answer = input("What key word do we use to display a text to the screen in python?")
+        answer = input("What key word do we use to display a text to the screen in python? \n")
         if answer.lower() == AnswerKey[4].lower():
             score += 1
     i += 1 #To increment the looping variable by 1
