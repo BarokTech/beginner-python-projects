@@ -20,3 +20,7 @@ decision on the actions to take.
 5)passwordManager
 A program which views and adds username and passwords from/to an encrypted file.
 Uses Python's 'fs' and an external 'encryption' modules
+
+6)binarySearch
+A program which checks the exsistence of a number in a list and displays 
+its positon if it exists
